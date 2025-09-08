@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+.profile-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 3px solid black;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+h2 {
+  border-bottom: 2px solid black;
+  display: inline-block;
+  margin-top: 20px;
+  padding-bottom: 5px;
+}
+
+/* Contact Buttons */
+.contact {
+  margin-top: 30px;
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 20px;
+  border: 2px solid black;
+  border-radius: 6px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
